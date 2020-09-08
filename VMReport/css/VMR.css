@@ -1,0 +1,80 @@
+﻿TABLE {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+}
+TR:Hover TD {
+    Background-Color: #C1D5F8;
+}
+TH {
+    border-width: 1px;
+    padding: 3px;
+    border-style: solid;
+    border-color: black;
+    background-color: #d4c68e;
+
+}
+TD {
+    border-width: 1px;
+    padding: 3px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.odd  { 
+    background-color:#ffffff;
+}
+.even { 
+    background-color:#dddddd;
+}
+
+.sidenav {
+    height: 100%;
+    width: 182px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 50px;
+}
+
+.sidenav a {
+    padding: 5px 5px 5px 20px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #ffffff;
+}
+
+.active a{
+    color: #ffffff;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.sublist{
+    font-size:12px;
+    padding: 2px 2px 2px 12px;
+}
+
+.mainlist{
+    font-size:20px;
+}
+
+.nb{
+    font-style:unset;
+    font-weight:unset;
+    margin-bottom:unset;
+    max-width:unset;
+}
